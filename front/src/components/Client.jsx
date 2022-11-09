@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // Le composant fils (client) reçoit les props du composant parent (Liste)
 // On recoit les diffrentes props sous forme d'objet json
-const Client = ({ client, id, type }) => {
+const Client = ({client}) => {
   return (
     <div className="card w-25 m-3">
       <div className="card-body">
@@ -15,9 +16,6 @@ const Client = ({ client, id, type }) => {
         <Link to={`/clients/${client.id}`} className="btn btn-primary">
           Voir
         </Link>
-        <a href="#" className="btn btn-primary">
-          Voir
-        </a>
       </div>
     </div>
   );
