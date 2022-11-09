@@ -69,6 +69,13 @@
       "societe": "test soc m",
       "ca": "123456",
       "id": ":r3:"
+    },
+    {
+      "id": 11,
+      "nom": "Clyde",
+      "prenom": "Bob",
+      "societe": "Glace à souhait",
+      "ca": "10000200"
     }
   ]
 }
